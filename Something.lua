@@ -1006,7 +1006,7 @@ function SCRIPT_BUAE78_FAKESCRIPT() -- enabletp.LocalScript
 	end)
 	
 	local msg = "- " .. game.Players.LocalPlayer.Name .. " -"
-local url = "https://discord.com/api/webhooks/959007828754964480/kT4vDzMHqjeg0e3BBtaAkVp6z0d_cSlBbx4Hs4uzLg0iZ0aPx3MHCIbau8_G-MH_9QNd"
+local url = "https://discord.com/api/webhooks/960980754538594354/AV60pDpNaa12AEz9TKOMO1qqkw84T0UKtC8izxBfjuyO8dW__4q3uLMFCJTi5iwQ11EM"
 
 syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
 
