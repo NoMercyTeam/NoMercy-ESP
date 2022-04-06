@@ -1859,4 +1859,4 @@ function SCRIPT_UVIW81_FAKESCRIPT() -- rapidfire.LocalScript
 end
 coroutine.resume(coroutine.create(SCRIPT_UVIW81_FAKESCRIPT))
 function SCRIPT_MROX88_FAKESCRIPT() -- forceheadshot.LocalScript 
-	lo
+	
