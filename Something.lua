@@ -1,4 +1,4 @@
--- Cuteware Crack by Cutecrack Team
+--Cuteware Crack by Cutecrack Team
 local poop = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local LeftTab = Instance.new("Frame")
@@ -93,7 +93,7 @@ Main.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
 Main.BorderColor3 = Color3.new(0.262745, 0.262745, 0.262745)
 Main.BorderSizePixel = 2
 Main.Position = UDim2.new(0.439048886, -341, 0.528578699, -337)
-Main.Size = UDim2.new(0, 300, 0, 350)
+Main.Size = UDim2.new(0, 684, 0, 510)
 
 LeftTab.Name = "LeftTab"
 LeftTab.Parent = Main
@@ -102,7 +102,7 @@ LeftTab.BackgroundColor3 = Color3.new(0.0509804, 0.0509804, 0.0509804)
 LeftTab.BorderColor3 = Color3.new(0.207843, 0.207843, 0.207843)
 LeftTab.BorderSizePixel = 0
 LeftTab.Position = UDim2.new(-0.000458300114, 0, 0.0127138197, 0)
-LeftTab.Size = UDim2.new(0, 120, 0, 667)
+LeftTab.Size = UDim2.new(0, 120, 0, 500)
 
 Opened.Name = "Opened"
 Opened.Parent = LeftTab
@@ -110,7 +110,7 @@ Opened.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
 Opened.BorderColor3 = Color3.new(0.262745, 0.262745, 0.262745)
 Opened.BorderSizePixel = 0
 Opened.Position = UDim2.new(0.00261611934, 0, 0.0562112741, -10)
-Opened.Size = UDim2.new(0, 121, 0, 100)
+Opened.Size = UDim2.new(0, 25, 0, 15)
 
 Frame.Parent = Opened
 Frame.BackgroundColor3 = Color3.new(0.262745, 0.262745, 0.262745)
@@ -131,7 +131,7 @@ Divider.Active = true
 Divider.BackgroundColor3 = Color3.new(1, 1, 1)
 Divider.BorderColor3 = Color3.new(0.262745, 0.262745, 0.262745)
 Divider.Position = UDim2.new(0.174655706, 0, 0.0122207552, 0)
-Divider.Size = UDim2.new(0, 0, 0, 667)
+Divider.Size = UDim2.new(0, 0, 0, 500)
 Divider.ZIndex = 0
 
 VisualsTab.Name = "VisualsTab"
@@ -204,7 +204,7 @@ VisTab3.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
 VisTab3.BorderColor3 = Color3.new(0.262745, 0.262745, 0.262745)
 VisTab3.BorderSizePixel = 2
 VisTab3.Position = UDim2.new(1.11585104, 0, 0.708520174, 0)
-VisTab3.Size = UDim2.new(0, 233, 0, 252)
+VisTab3.Size = UDim2.new(0, 230,  0, 140)
 
 PlayerESP_3.Name = "Player ESP"
 PlayerESP_3.Parent = VisTab3
@@ -212,7 +212,7 @@ PlayerESP_3.Active = true
 PlayerESP_3.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
 PlayerESP_3.BorderSizePixel = 0
 PlayerESP_3.Position = UDim2.new(0.0439044461, 0, -0.024371434, 0)
-PlayerESP_3.Size = UDim2.new(0, 45, 0, 15)
+PlayerESP_3.Size = UDim2.new(0, 25, 0, 15)
 PlayerESP_3.Font = Enum.Font.SourceSansBold
 PlayerESP_3.Text = "Effects"
 PlayerESP_3.TextColor3 = Color3.new(0.713726, 0.713726, 0.713726)
@@ -1859,4 +1859,468 @@ function SCRIPT_UVIW81_FAKESCRIPT() -- rapidfire.LocalScript
 end
 coroutine.resume(coroutine.create(SCRIPT_UVIW81_FAKESCRIPT))
 function SCRIPT_MROX88_FAKESCRIPT() -- forceheadshot.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = forceheadshot
+	local TOGGLED = false -- ;)
 	
+	script.Parent.MouseButton1Click:Connect(function()
+		TOGGLED = not TOGGLED
+		if TOGGLED == false then
+			script.Parent.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+		else
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 234, 129)
+		end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_MROX88_FAKESCRIPT))
+function SCRIPT_BDKJ67_FAKESCRIPT() -- bullettracer.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = bullettracer
+	local TOGGLED = false -- ;)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		TOGGLED = not TOGGLED
+		if TOGGLED == false then
+			script.Parent.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+		else
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 234, 129)
+		end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_BDKJ67_FAKESCRIPT))
+function SCRIPT_VUWU78_FAKESCRIPT() -- miscenabled.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = miscenabled
+	
+	
+	local TOGGLED = false -- ;)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		TOGGLED = not TOGGLED
+		if TOGGLED == false then
+			script.Parent.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+		else
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 234, 129)
+		end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_VUWU78_FAKESCRIPT))
+function SCRIPT_VCUZ68_FAKESCRIPT() -- nocrouchj.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = nocrouchj
+	
+	local client = getsenv(game.Players.LocalPlayer.PlayerGui.Client)
+	local TOGGLED = false -- ;)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		TOGGLED = not TOGGLED
+		if TOGGLED == false then
+			script.Parent.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+		else
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 234, 129)
+		end
+	end)
+	
+	while wait() do
+		if script.Parent.Parent.Parent.miscenabled.BackgroundColor3==Color3.fromRGB(0, 234, 129) then
+			if script.Parent.BackgroundColor3 == Color3.fromRGB(0, 234, 129) then
+				client.crouchcooldown=0
+			end
+		end
+	end
+
+end
+coroutine.resume(coroutine.create(SCRIPT_VCUZ68_FAKESCRIPT))
+function SCRIPT_RBGM85_FAKESCRIPT() -- bhoptoggle.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = bhoptoggle
+	
+	local plrs=game:GetService("Players")
+	local plr=plrs.LocalPlayer
+	local UserInputService=game:GetService("UserInputService")
+	local spaceHeld=UserInputService:IsKeyDown(Enum.KeyCode.Space)
+	local C=getsenv(game.Players.LocalPlayer.PlayerGui.Client)
+	local backup={}
+	backup.speed=C.speedupdate
+	local n=0
+	local TOGGLED = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		TOGGLED = not TOGGLED
+		if TOGGLED == false then
+			script.Parent.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+		else
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 234, 129)
+		end
+	end)
+	
+	while wait() do
+	if script.Parent.BackgroundColor3==Color3.fromRGB(0, 234, 129) then
+	if script.Parent.Parent.miscenabled.BackgroundColor3==Color3.fromRGB(0, 234, 129) then
+	spaceHeld = UserInputService:IsKeyDown(Enum.KeyCode.Space)
+	if spaceHeld==true then
+	if workspace:FindFirstChild(plr.Name) then
+	if plr.Character:FindFirstChild("Humanoid") then
+	n=1
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+	C.speedupdate = function()
+	end
+	end
+	end
+	else
+	if n==1 then
+	n=0
+	wait(0.5)
+	C.speedupdate = backup.speed
+	wait()
+	end
+	end
+	end
+	end
+	end
+
+end
+coroutine.resume(coroutine.create(SCRIPT_RBGM85_FAKESCRIPT))
+function SCRIPT_KLPC83_FAKESCRIPT() -- backtrackenabled.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = backtrackenabled
+	
+	local AAA=0
+	local smallest=math.huge
+	local ok=""
+	local plrs=game.Players
+	local plr=plrs.LocalPlayer
+	local mouse=plr:GetMouse()
+	local camera = workspace.CurrentCamera
+	local inptSrvc = game:GetService("UserInputService")
+	local st
+	local debris=game:GetService("Debris")
+	local mouse=plr:GetMouse()
+	local hp=game.ReplicatedStorage.Events['HitPart']
+	local inptSrvc=game:GetService("UserInputService")
+	local n
+	local norapid=0
+	local f=Instance.new("Folder",workspace)
+	f.Name="BT"
+	
+	local function getnearest()
+	smallest=math.huge
+	for _,v in pairs(plrs:GetChildren()) do
+	if v~=plr then
+	if v:FindFirstChild("Status") then
+	if v.Status.Team.Value~=plr.Status.Team.Value then
+	if workspace:FindFirstChild(v.Name) then
+	if v.Character:FindFirstChild("Humanoid") then
+	if v.Character.Humanoid.Health > 0 then
+	local worldPoint = v.Character.Head.Position
+	local vector, onScreen = camera:WorldToScreenPoint(worldPoint)
+	local magnitude = (Vector2.new(mouse.X, mouse.Y) - Vector2.new(vector.X, vector.Y)).magnitude
+	if smallest>magnitude then
+	smallest=magnitude
+	ok=v
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	
+	local TOGGLED = false -- ;)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		TOGGLED = not TOGGLED
+		if TOGGLED == false then
+			script.Parent.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+		else
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 234, 129)
+		end
+	end)
+	
+	game['Run Service'].RenderStepped:connect(function()
+	pcall(function()
+	if script.Parent.Parent.miscenabled.BackgroundColor3==Color3.fromRGB(0, 234, 129) then
+	local waittime=tonumber(script.Parent.Parent.duration.Text)
+	if inptSrvc:IsMouseButtonPressed(0) then
+	if mouse.Target~=nil then
+	if mouse.Target.Name=="btTICK" then
+	if norapid==0 then
+	norapid=1
+	n=mouse.Target
+	local Arguments = {
+		[1] = workspace[n.nametag.Value][n.part.Value],
+		[2] = workspace[n.nametag.Value][n.part.Value].Position,
+		[3] = workspace[plr.Name].EquippedTool.Value,
+		[4] = 90,
+		[5] = workspace[plr.Name].Gun,
+		[8] = 0.9,
+		[9] = false,
+		[10] = false,
+		[11] = Vector3.new(),
+		[12] = 90,
+		[13] = Vector3.new()
+		}
+		hp:FireServer(unpack(Arguments))
+	if workspace[n.nametag.Value].Humanoid.Health<0.01 then
+	workspace[n.nametag.Value].HumanoidRootPart.CFrame=n.CFrame
+	end
+	spawn(function()
+	local gun=workspace[game.Players.LocalPlayer.Name].EquippedTool.Value
+	wait(game.ReplicatedStorage.Weapons[gun].FireRate.Value)
+	norapid=0
+	end)
+	end
+	end
+	end
+	end
+	if script.Parent.BackgroundColor3 == Color3.fromRGB(0, 234, 129) then
+	getnearest()
+	for _,v in pairs(plrs:GetChildren()) do
+	if v~=plr then
+	if ok==v then
+	if game.Players[v.Name].Status.Team.Value~=plr.Status.Team.Value then
+	if workspace:FindFirstChild(plr.Name) then
+	if plr.Character:FindFirstChild("Humanoid") then
+	if plr.Character.Humanoid.Health>0 then
+	if workspace:FindFirstChild(v.Name) then
+	if v.Character:FindFirstChild("Humanoid") then
+	if v.Character.Humanoid.Health>0 then
+	for _,o in pairs(v.Character:GetChildren()) do
+	if o:IsA"Part" or o:IsA"MeshPart" then
+	local p=Instance.new("Part",workspace.BT)
+	p.Position=o.Position
+	p.Size=o.Size
+	p.Orientation=o.Orientation
+	p.Anchored=true
+	p.CanCollide=false
+	p.BrickColor=BrickColor.new("White")
+	p.Transparency=0.9
+	p.Name="btTICK"
+	local nametag=Instance.new("StringValue",p)
+	nametag.Value=v.Name
+	nametag.Name="nametag"
+	local PS=Instance.new("StringValue",p)
+	PS.Value=o.Name
+	PS.Name="part"
+	debris:AddItem(p,waittime)
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end)
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_KLPC83_FAKESCRIPT))
+function SCRIPT_CNHV74_FAKESCRIPT() -- infmoney.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = infmoney
+	
+	
+	local TOGGLED = false -- ;)
+	local haha=0
+	local oldcash=0
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		TOGGLED = not TOGGLED
+		if TOGGLED == false then
+			script.Parent.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+		else
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 234, 129)
+			oldcash=game.Players.LocalPlayer.Cash.Value
+		end
+	end)
+	
+	while wait() do
+	if script.Parent.BackgroundColor3 == Color3.fromRGB(0, 234, 129) then
+	if script.Parent.Parent.miscenabled.BackgroundColor3==Color3.fromRGB(0, 234, 129) then
+	haha=1
+	game.Players.LocalPlayer.Cash.Value = 9e9
+	else
+	if haha==1 then
+	haha=0
+	game.Players.LocalPlayer.Cash.Value=oldcash
+	end
+	end
+	end
+	end
+	
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_CNHV74_FAKESCRIPT))
+function SCRIPT_HRKN77_FAKESCRIPT() -- duration.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = duration
+	
+	notify=function(stopnu)
+	game.StarterGui:SetCore('SendNotification',
+	{Title='sprite.club';Text=stopnu;})
+	end
+	
+	
+	script.Parent.FocusLost:Connect(function()
+	local n=tonumber(script.Parent.Text)
+	if n>1 then
+	script.Parent.Text="1"
+	notify'Using an value above 1 will cause alot of lag!'
+	end
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_HRKN77_FAKESCRIPT))
+function SCRIPT_TWRC88_FAKESCRIPT() -- aimenabled.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = aimenabled
+	
+	
+	
+	
+	local TOGGLED = false -- ;)
+	local plrs=game:GetService("Players")
+	local plr=plrs.LocalPlayer
+	local mouse=plr:GetMouse()
+	local smallest=math.huge
+	local camera=workspace.CurrentCamera
+	local fov=tonumber(script.Parent.Parent.fov.Text)
+	local smooth=tonumber(script.Parent.Parent.smoothness.Text)
+	local inptSrvc=game:GetService("UserInputService")
+	local ok
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		TOGGLED = not TOGGLED
+		if TOGGLED == false then
+			script.Parent.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+		else
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 234, 129)
+		end
+	end)
+	
+	
+	local function getnearest()
+	smallest=math.huge
+	for _,v in pairs(plrs:GetChildren()) do
+	if v~=plr then
+	if v:FindFirstChild("Status") then
+	if v.Status.Team.Value~=plr.Status.Team.Value then
+	if workspace:FindFirstChild(v.Name) then
+	if v.Character:FindFirstChild("Humanoid") then
+	if v.Character.Humanoid.Health > 0 then
+	local worldPoint = v.Character.Head.Position
+	local vector, onScreen = camera:WorldToScreenPoint(worldPoint)
+	local magnitude = (Vector2.new(mouse.X, mouse.Y) - Vector2.new(vector.X, vector.Y)).magnitude
+	if smallest>magnitude then
+	smallest=magnitude
+	ok=v
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	
+	game['Run Service'].RenderStepped:connect(function()
+	if script.Parent.BackgroundColor3 == Color3.fromRGB(0, 234, 129) then
+	getnearest()
+	fov=tonumber(script.Parent.Parent.fov.Text)
+	smooth=tonumber(script.Parent.Parent.smoothness.Text)
+	if inptSrvc:IsMouseButtonPressed(0) then
+	if workspace:FindFirstChild(ok.Name) then
+	if ok.Character:FindFirstChild("Humanoid") then
+	if ok.Character:FindFirstChild("Head") then
+	if ok.Character.Humanoid.Health>0.1 then
+	local worldPoint = ok.Character.Head.Position
+	local vector, onScreen = camera:WorldToScreenPoint(worldPoint)
+	local magnitude = (Vector2.new(mouse.X, mouse.Y) - Vector2.new(vector.X, vector.Y)).magnitude
+	if magnitude<fov then
+	local magnitudeX = mouse.X - vector.X
+	local magnitudeY = mouse.Y - vector.Y
+	local xsmooth=magnitudeX/smooth
+	local ysmooth=magnitudeY/smooth
+	mousemoverel(-xsmooth,-ysmooth)
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_TWRC88_FAKESCRIPT))
+function SCRIPT_XFNB65_FAKESCRIPT() -- poop.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = poop
+	
+	local MainGui = script.Parent.Main
+	local cursor = script.Parent.cursor
+	
+	
+	function onKeyPress(inputObject, gameProcessedEvent)
+		if inputObject.KeyCode == Enum.KeyCode.Insert then
+	
+	if MainGui.Visible == true then
+	MainGui.Visible = false
+	else
+	MainGui.Visible = true
+	end
+	end
+	end
+	
+	game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+	
+	game['Run Service'].Stepped:connect(function()
+	
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	cursor.Position = UDim2.new(0, mouse.X, 0, mouse.Y)
+	
+	if MainGui.Visible == true then 
+	cursor.Visible = true
+	else
+	cursor.Visible = false
+	end
+	
+	
+	
+	
+		if MainGui.Visible == true then
+			game:GetService("UserInputService").MouseBehavior = Enum.MouseBehavior.Default
+			
+		else
+		
+			game:GetService("UserInputService").MouseBehavior = Enum.MouseBehavior.LockCenter
+		end
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_XFNB65_FAKESCRIPT))
